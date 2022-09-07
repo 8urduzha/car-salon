@@ -1,0 +1,158 @@
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.h2-block{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-block{
+    /*border: 1px solid black;*/
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-column-gap: 20px;
+}
+
+.left-block {
+    border: 1px solid black;
+    /*width: 30%;*/
+    display: inline-grid;
+}
+
+.right-block {
+     border: 1px solid black;
+     /*width: 70%;*/
+
+
+}
+
+
+.car-brands {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 0px;
+    background-color: transparent;
+    height: 45px;
+}
+
+.active, .car-brands:hover {
+    background-color: #666;
+    color: white;
+}
+
+.car {
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+
+.car-active, .car:hover {
+    background-color: #666;
+    color: white;
+}
+
+
+.car-brands:hover {
+    background-color: darkseagreen;
+    transition: 0.5s;
+}
+
+.clicked {
+    background-color: #5acfd5;
+}
+
+.clicked:hover{
+    background-color: #5acfd5;
+}
+/*.days {*/
+/*    !*display: none;*!*/
+/*    display: grid;*/
+/*    grid-template-columns: 3fr 3fr 3fr;*/
+/*    grid-column-gap: 0px;*/
+/*    grid-row-gap: 0px;*/
+/*    height: 100%;*/
+/*}*/
+
+.cars {
+    display: none;
+}
+
+.currentCars {
+    /*display: none;*/
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+}
+
+.car:hover {
+    background-color: darkseagreen;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.btn {
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: #5acfd5;
+    transition: 0.5s;
+}
+
+.image-block {
+   height: 300px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.car-img {
+    /*width: 50%;*/
+    display: none;
+}
+
+.current-img {
+    display: block;
+}
+
+.notDisplay {
+    display: none;
+}
+
+#p-name {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#p-class {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.car-name {
+    display: flex;
+    justify-content: center;
+}
+
+.info-block {
+    border: 0px;
+}
